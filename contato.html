@@ -1,1 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: lightgray;
+}
+</style>
+</head>
+<body>
+    <h1 style="background-color:Gray;">GRUPO CESPER</h1>
+        
+    <hr>
+   
+       <div>
+           <p class="inset"><h2>Deixe aqui seus dados para que possamos entar em contato e oferecer o melhor orçamento.</h2>
+           
+       </div>
+       <div>
+           <form>
+               <fieldset>
+                   <legend>Dados Pessoais</legend>
+                   <label for="nome">Seu nome:</label>
+                   <br/>
+                   <input id="nome" type="text">
+                   <br/>
+                   <label for="email">E-mail:</label>
+                   <br/>
+                   <input id="email" type="email">
+                   <br/>
+                   <br/>
+                   <fieldset>
+                       <legend>Dados do Produto</legend>
+                       <label>Que Produto/Serviço está buscando?</label>
+                       <br/>
+                       <inp ut list="produtos">
+                       <datalist id="produtos">
+                       <option value="Persianas">
+                       <option value="Cortinas">
+                       <option value="Envidraçamento">
+                       <option value="Outro">
+                       </datalist>
+                        <br/>
 
+                       <label for="mensagem">Mensagem:</label><br/>
+                        <textarea id="mensagem" rows="10" cols="30"></textarea>
+                       <br/> <br><br>
+                       <fieldset>
+                           <legend>Produtos</legend>
+                        <label>Cortinas</label>
+                      <input type="radio">
+                      <label>Persianas</label>
+                      <input type="radio" checked="checked">
+                      <label>Sacada de Vidro</label>
+                      <input type="radio">
+                   </fieldset><br>
+                   
+                     <label>Selecione a Data do Orçamanto</label>
+                     <input id="orçamanto" type="date">
+                     
+
+                   </fieldset> <br><br>
+               
+                 <button type="reset">Limpar Formulário</button>
+               
+                   </fieldset>
+               
+               <input id="botao" type="submit" value="Enviar">
+           </form>
+       </div>
+
+
+</body>
+</html>
